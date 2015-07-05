@@ -35,8 +35,23 @@ body {
 }
 
 img {
-    margin-bottom: 50px;
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
+}
+
+.blog-item {
+    border: 2px solid rgba(23, 11, 72, 0.64);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+.blog-item p {
+    font-size: 21px;
+    font-weight: 200;
 }
