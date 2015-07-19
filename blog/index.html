@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="container-narrow">
+
+    <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="/">Home</a></li>
+            <li class="active"><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="text-muted"><a href="/">Julia Korytko</a></h3>
+    </div>
+
+    <hr>
+
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
+    <div class="footer">
+        <p>&copy; Will work on footer further</p>
+    </div>
+
+</div> <!-- /container -->
+
+
+
+
+
+
+
+
+
+
+
